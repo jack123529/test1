@@ -62,8 +62,8 @@ suite('Unit Tests', function () {
     // #8
     test('#isAbove, #isAtMost', function () {
       assert.isAbove('hello'.length, 5);
-      assert.isAtMost(1, 0);
-      assert.isAbove(Math.PI, 3);
+      assert.isAbove(1, 0);
+      assert.isAtMost(Math.PI, 3);
       assert.isAtMost(1 - Math.random(), 1);
     });
     // #9
